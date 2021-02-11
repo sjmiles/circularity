@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "rootDir": "./ts",
+    "outDir": "./dist"
+  },
+  // "include": [
+  //   "./ts/**/*", "../lib/automerge/automerge.ts"
+  // ]
+}
