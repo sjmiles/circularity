@@ -1,13 +1,11 @@
-import {Typez} from './typez.js';
+import {ctorz} from './ctorz.js';
 import type {B} from './b_needs_a.js';
 
 class A {
   makeB(): B {
-    return new ctorB();
+    return new (ctorz.get('B'))();
   }
 }
-
-const ctorB = Typez('B');
-Typez.set('A', A);
+ctorz.set('A', A);
 
 export {A};
