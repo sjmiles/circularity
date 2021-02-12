@@ -1,7 +1,4 @@
-export interface A {
-  id() : string;
-  makeB(): B
-}
+import {A} from './A';
 
 export interface B {
   id() : string;
