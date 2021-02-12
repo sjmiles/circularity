@@ -1,4 +1,4 @@
-import {ctorz} from './ctorz.js';
+import {ctorz} from '../ctorz.js';
 import {A} from './faces_b.js';
 
 class B {
