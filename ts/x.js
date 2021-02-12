@@ -1,0 +1,4 @@
+class X {
+}
+
+export {X};

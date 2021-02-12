@@ -1,8 +1,8 @@
 import {ctorz} from './ctorz.js';
-import type {B} from './b_needs_a.js';
+import {X} from './x.js';
 
-class A {
-  makeB(): B {
+class A extends X {
+  makeB(): X {
     return new (ctorz.get('B'))();
   }
 }
