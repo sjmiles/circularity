@@ -1,11 +1,11 @@
 
 
 BUILD_A DEPS
-  a_needs_b.ts
-  ctorz.ts
-  faces_a.ts
+ - a_needs_b.ts
+ - faces_a.ts
+ - ctorz.ts
 
 BUILD_B DEPS
-  b_needs_a.ts
-  ctorz.ts
-  faces_b.ts
+ - b_needs_a.ts
+ - faces_b.ts
+ - ctorz.ts
