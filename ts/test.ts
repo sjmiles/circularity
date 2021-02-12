@@ -1,5 +1,5 @@
-import {A} from './A/A.js';
-import {B} from './B/B.js';
+import {A} from './A.js';
+import {B} from './B.js';
 
 const b: B = new A().makeB() as B;
 const a: A = new B().makeA() as A;

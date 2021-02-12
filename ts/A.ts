@@ -1,5 +1,5 @@
-import {ctorz} from '../ctorz.js';
-import {B} from './faces_a.js';
+import {ctorz} from './ctorz.js';
+import {B} from './B';
 
 class A {
   id(): string {
@@ -9,6 +9,6 @@ class A {
     return new (ctorz.get('B'))();
   }
 }
-ctorz.set('A', A);
 
+ctorz.set('A', A);
 export {A};
