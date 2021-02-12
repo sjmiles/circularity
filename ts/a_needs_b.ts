@@ -1,8 +1,11 @@
 import {ctorz} from './ctorz.js';
-import {X} from './x.js';
+import {B} from './faces_a.js';
 
-class A extends X {
-  makeB(): X {
+class A {
+  id(): string {
+    return 'A';
+  }
+  makeB(): B {
     return new (ctorz.get('B'))();
   }
 }

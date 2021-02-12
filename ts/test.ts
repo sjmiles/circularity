@@ -4,4 +4,4 @@ import {B} from './b_needs_a.js';
 const b: B = new A().makeB() as B;
 const a: A = new B().makeA() as A;
 
-console.log(a, b);
+document.body.innerHTML = `b is type ${b.id()}<hr>a is type ${a.id()}`;
